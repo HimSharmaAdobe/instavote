@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    tier: front
   name: vote
 spec:
   replicas: 2
